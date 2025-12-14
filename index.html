@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antek">
+    <meta name="keywords" content="Latarnie, Korpusy">
+    <meta name="description" content="Strona o Latarniach">
+    <title>Spektrum Emocjonalne | Korpusy Latarni | DC Comics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-c">
+        <h1 class="animated-logo">Spektrum Emocjonalne | Korpusy Latarni</h1>
+        </div>
+    </header>
+    <nav class="navbar menu-desktop">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+
+<!-- TABLET MENU -->
+<nav class="navbar menu-tablet">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+
+<!-- MOBILE MENU -->
+<nav class="menu-mobile">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+    <main>
+    <section class="yomama">
+            <h2 class="Gal">Pierścienie Korpusów</h2>
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="photos/green-lan.png" style="width:100%" alt="green-lan">
+  <div class="text">Zielone | Wola</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="photos/yellow-lan.png" style="width:100%" alt="yellow-lan">
+  <div class="text">Żółte | Strach</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="photos/red-lan.png" style="width:100%" alt="red-lan">
+  <div class="text">Czerwone | Gniew</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="photos/blue-lan.png" style="width:100%" alt="blue-lan">
+  <div class="text">Niebieskie | Nadzieja</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="photos/sapphire-lan.png" style="width:100%" alt="sapphire-lan">
+  <div class="text">Fioletowe | Miłość</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="photos/orange-lan.png" style="width:100%" alt="orange-lan">
+  <div class="text">Pomarańczowe | Chciwość</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="photos/indigo-lan.png" style="width:100%" alt="indigo-lan">
+  <div class="text">Indygo | Współczucie</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</main>
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+// ten od slide
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<section>
+    <h2>Korpusy latarni i ich przynależności</h2>
+    <p>Korpusy Latarni w uniwersum DC Comics czerpią swoją moc ze spektrum emocjonalnego, z których każdy kolor odpowiada innej emocji i tworzy unikalną grupę.</p>
+
+        <table class="table-lan">
+        <thead>
+            <tr>
+                <th>Kolor spektrum emocjonalnego</th>
+                <th>Emocja przynależna do korpusu</th>
+                <th>Nazwa korpusu</th>
+                <th>Przysięga korpusu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zielony</td>
+                <td>Siła Woli</td>
+                <td>Korpus Zielonych Latarni</td>
+                <td>„W najjaśniejszy dzień, w najczarniejszą noc, Żadne zło nie ujdzie mojej uwagi. Niech ci, którzy czczą moc zła, Strzeż się mojej mocy - światła Zielonej Latarni!”</td>
+            </tr>
+            <tr>
+                <td>Żółty</td>
+                <td>Strach</td>
+                <td>Korpus Sinestro/Żółtych Latarni</td>
+                <td>„W najczarniejszy dzień, w najjaśniejszą noc, Strzeż się swoich lęków przemienionych w światło. Niech ci, którzy próbują powstrzymać to, co słuszne, Spalą się jak moja moc - potęga Sinestro!”</td>
+            </tr>
+            <tr>
+                <td>Czerwony</td>
+                <td>Gniew</td>
+                <td>Korpus Czerwonych Latarni</td>
+                <td>„Z krwią i gniewem szkarłatnej czerwieni, Wyrwane z trupa tak świeżo martwego, Razem z naszą piekielną nienawiścią, Spalimy was wszystkich - to wasz los!”</td>
+            </tr>
+            <tr>
+                <td>Niebieski</td>
+                <td>Nadzieja</td>
+                <td>Korpus Niebieskich Latarni</td>
+                <td>„W straszliwy dzień, w szalejącą noc, Z pełnymi sercami, nasze dusze rozpalają się. Gdy wszystko wydaje się stracone w Wojnie Światła, Spójrz na gwiazdy, bo nadzieja płonie jasno!”</td>
+            </tr>
+            <tr>
+                <td>Fioletowy</td>
+                <td>Miłość</td>
+                <td>Gwiezde Szafiry</td>
+                <td>„Dla serc dawno utraconych i pełnych strachu, Dla tych samotnych w Najczarniejszej Nocy. Przyjmij nasz pierścień i dołącz do naszej walki, Miłość zwycięża wszystko fioletowym światłem!”</td>
+            </tr>
+            <tr>
+                <td>Pomarańczowy</td>
+                <td>Chciwość</td>
+                <td>Korpus Pomarańczowych Latarni</td>
+                <td>„Moje jest moje i moje i moje. I moje i moje i moje! Nie twoje!”</td>
+            </tr>
+            <tr>
+                <td>Indygo</td>
+                <td>Współczucie</td>
+                <td>Plemię Indygo</td>
+                <td>„Tor lorek san, bor nakka mur, Natromo faan tornek wot ur. Ter Lantern ker lo Abin Sur, Taan lek lek nok - Formorrow Sur!</td>
+            </tr>
+        </tbody>
+        </table>
+
+<section>
+<div class="WB">
+    <h3>Siedziba Warner Bros (almost DC)</h3>
+<iframe src="https://www.google.com/maps?q=34.1486546,-118.3387185&z=17&output=embed" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+</div>
+</section>
+
+<section>
+<div class="music">
+    <h3>Śwetna mega super i wcale nie wsadzona na siłe muzyka superbohaterów jak cześć naszych Latarni</h3>
+    <audio  controls>
+        <source src="photos/superhero-theme-extended-194335.mp3">
+    </audio>
+</div>
+</section>
+</main>
+
+<footer><p>© DC COMICS | Autor: Antoni Szyszka-Cieniuch | Klasa: 2ta</p></footer>
+    
+</body>
+</html>

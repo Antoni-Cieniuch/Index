@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ankieta - Korpusy Latarni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="white-text">
+
+<header>
+        <div class="logo-c">
+        <h1 class="animated-logo">Spektrum Emocjonalne | Korpusy Latarni</h1>
+        </div>
+    </header>
+    <nav class="navbar menu-desktop">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+
+<!-- TABLET MENU -->
+<nav class="navbar menu-tablet">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+
+<!-- MOBILE MENU -->
+<nav class="menu-mobile">
+    <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="strona1.html">Zielone | Wola</a></li>
+        <li><a href="strona2.html">Żółte | Strach</a></li>
+        <li><a href="strona3.html">Czerwone | Gniew</a></li>
+        <li><a href="strona4.html">Niebieskie | Nadzieja</a></li>
+        <li><a href="strona5.html">Fioletowe | Miłość</a></li>
+        <li><a href="strona6.html">Pomarańczowe | Chciwość</a></li>
+        <li><a href="strona7.html">Indygo | Współczucie</a></li>
+        <li><a href="ankieta.html">Ankieta</a></li>
+    </ul>
+</nav>
+    <main>
+
+<section class="wawi">
+<h2 class="cet">Krótka ankieta o stronie</h2>
+
+<form action="#" method="post">
+
+    
+    <label for="nick">Twój nick:</label><br>
+    <input type="text" id="nick" name="nick" placeholder="Wpisz nick"><br><br>
+
+ 
+    <label for="wiek">Twój wiek:</label><br>
+    <input type="number" id="wiek" name="wiek" min="10" max="99"><br><br>
+
+  
+    <p>Który Korpus Latarni jest Twoim ulubionym?</p>
+    <input type="radio" name="korpus" value="zielony"> Zielone (Wola)<br>
+    <input type="radio" name="korpus" value="zolty"> Żółte (Strach)<br>
+    <input type="radio" name="korpus" value="czerwony"> Czerwone (Gniew)<br>
+    <input type="radio" name="korpus" value="niebieski"> Niebieskie (Nadzieja)<br><br>
+
+    
+    <p>Które sekcje strony najbardziej Ci się podobały?</p>
+    <input type="checkbox" name="sekcje[]" value="informacje"> Informacje<br>
+    <input type="checkbox" name="sekcje[]" value="tabele"> Tabele<br>
+    <input type="checkbox" name="sekcje[]" value="historia"> Historia<br>
+    <input type="checkbox" name="sekcje[]" value="ciekawostki"> Ciekawostki<br><br>
+
+   
+    <label for="ocena">Jak oceniasz stronę?</label><br>
+    <select id="ocena" name="ocena">
+        <option value="">-- wybierz --</option>
+        <option value="1">1 - bardzo słaba</option>
+        <option value="2">2 - słaba</option>
+        <option value="3">3 - średnia</option>
+        <option value="4">4 - dobra</option>
+        <option value="5">5 - bardzo dobra</option>
+    </select><br><br>
+
+   
+    <label for="opinia">Twoja opinia:</label><br>
+    <textarea id="opinia" name="opinia" rows="4" cols="40" placeholder="Napisz co sądzisz o stronie"></textarea><br><br>
+
+
+    <input type="submit" value="Wyślij">
+    <input type="reset" value="Wyczyść">
+
+</form>
+</section>
+
+</body>
+</html>
